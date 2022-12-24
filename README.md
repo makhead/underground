@@ -8,8 +8,13 @@ It is based on NS-SHAFT and also added some of our ideas.
 Different levels and random items is added to the game. Have Fun!
 
 ## Compile and Execute
-* Use Dev C++ to open the .dev file, compile and run it.
-* Compile the source code with gcc and run it.
+* use cmake, make and gcc to compile and run it.
+```
+cd \build
+cmake .. -G "MinGW Makefiles"
+make
+main.exe
+```
 
 ## ScreenShots
 <img src="./screenshots/homepage.png" width=50% />
