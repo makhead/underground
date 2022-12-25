@@ -12,7 +12,7 @@ Different levels and random items is added to the game. Have Fun!
 ```
 cd \build
 cmake .. -G "MinGW Makefiles"
-make
+cmake --build .
 main.exe
 ```
 
